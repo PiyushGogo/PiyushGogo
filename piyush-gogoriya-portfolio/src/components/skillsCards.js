@@ -105,7 +105,7 @@ const techStack = [
 export default function TechStack() {
   return (
     <section className="bg-gray-900 py-16 px-4">
-      <div className="max-w-6xl mx-auto ">
+      <div className="max-w-4xl mx-auto ">
         <h2 className="text-white text-2xl font-bold mb-12 tracking-wider">TECH STACK</h2>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 px-6">
