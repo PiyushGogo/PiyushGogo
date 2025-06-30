@@ -1,12 +1,14 @@
 import Image from "next/image";
-import Footer from "./components/footer";
-import Header from "./components/header";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import SkillsCards from "@/components/skillsCards";
 
 export default function Home() {
   return (
   <>
   {/* <Header /> */}
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
+  <SkillsCards/>
+    <div className=" bg-gray-900 flex min-h-screen flex-col items-center justify-between p-24">
         <main className="flex flex-col items-center justify-between w-full flex-1 text-center">
           <h1 className="text-4xl font-bold mb-4">Piyush Gogoriya</h1>
           <p className="text-lg mb-8">
